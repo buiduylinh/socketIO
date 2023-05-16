@@ -52,6 +52,11 @@
         <enabled>true</enabled>
       </snapshots>
     </repository>
+
+    <repository>
+      <id>jitpack.io</id>
+      <url>https://jitpack.io</url>
+    </repository>
   </repositories>
 
   <prerequisites>
@@ -86,6 +91,12 @@
       <artifactId>jsonassert</artifactId>
       <version>1.5.0</version>
       <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>com.github.jitpack</groupId>
+      <artifactId>maven-simple</artifactId>
+      <version>0.1</version>
     </dependency>
   </dependencies>
 
