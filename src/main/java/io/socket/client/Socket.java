@@ -3,7 +3,6 @@ package io.socket.client;
 import io.socket.emitter.Emitter;
 import io.socket.parser.Packet;
 import io.socket.parser.Parser;
-import io.socket.thread.EventThread;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
